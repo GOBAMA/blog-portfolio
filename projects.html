@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
   <meta name="description" content="my portfolio page">
   <meta name="keywords" content="portfolio, blog, autobiography">
   <meta name="author" content="Dom Tom">
@@ -23,7 +23,8 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="blog.html">Blog</a></li></br>
+          <li><a href="why.html">Why Choose Me?</a></li>
         </ul>
       </nav>
     </div>
@@ -36,8 +37,42 @@
   <div class="project-title">
     <h3>This is my portfolio page! My first website!</h3>
   </div>
+  <section class="project">
+    <div class="container">
+      <a href="home.html" target="_blank"><img src="portfolio-screenshot.png" alt="portfolio picture" height="400" width="570"></a>
+    </div>
+  </section>
+</body>
+<footer>
+  <p>&copy 2018 Dom Tom Sites </p>
+  <p>Contact Me!</p>
 
-  <div class="container">
-    <img src="portfolio-screenshot.jpeg" alt="portfolio picture">
+
+
+  <div class="form">
+    <form name="contactform" method="post" action="send_form_email.php">
+
+      <label for="">Name</label>
+      <input name="name" placeholder="Type Here">
+
+      <label for="">Email</label>
+      <input type="email" name="email" placeholder="Type Here">
+
+      <label for="">Message</label>
+      <textarea name="message" placeholder="Type Here"></textarea>
+
+      <label>*What is 2+2? (Anti-spam)</label>
+      <input name="human" placeholder="Type Here">
+
+      <input id="submit" type="submit" name="submit" value="Submit!">
+
+    </form>
   </div>
+  <div id="social">
+    <a href="https://www.instagram.com/lord_dom_tom/?hl=en" target="_blank"><img src="instagram-logo.jpg" alt="Instagram" height="40" width="40"></a>
+    <a href="https://twitter.com/lorddomtom" target="_blank"><img src="twitter-logo.jpg" alt="twitter" height="45" width="45"></a>
+  </div>
+
+</footer>
+
 </html>

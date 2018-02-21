@@ -1,11 +1,12 @@
 body {
   font: 15px/1.5 'open sans', sans-serif;
+
   padding: 0;
   margin: 0;
   background-color: #c9dbdb;
 }
 
-
+/* Global */
 
 .container {
   width: 80%;
@@ -19,7 +20,7 @@ ul {
   width: 100%;
 }
 
-
+/* Header */
 
 header {
   background-color: #cecdc0;
@@ -66,54 +67,11 @@ header a:hover {
   font-size: 21px;
 }
 
-#showcase {
-  background-color: #cecdbe;
-  padding-top: 15px;
+#title-top  h1{
+  background-color: #e8e6d7;
+  margin: 0;
+  padding-top: 25px;
   padding-bottom: 25px;
-  border-bottom: #707070 5px solid;
+  border-bottom: #afbcbc 5px solid;
   text-align: center;
-  font-family: 'open sans', sans-serif;
-  font-variant: small-caps;
-}
-
-section .pic {
-  margin-top: 20px;
-}
-
-.container h3 {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 18px;
-}
-
-img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-section h1 {
-  background-color: #cecdbe;
-  margin-top: 50px;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  border-top: #707070 5px solid;
-  border-bottom: #707070 5px solid;
-  text-align: center;
-  font-family: 'open sans', sans-serif;
-  font-variant: small-caps;
-}
-
-section p{
-  font-size: 15px;
-  line-height: 25px;
-}
-
-section p a{
-  color: inherit;
-  font-style: italic;
-}
-
-section p a:hover{
-  color: red;
 }

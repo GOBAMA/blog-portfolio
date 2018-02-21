@@ -2,7 +2,7 @@ body {
   font: 15px/1.5 'open sans', sans-serif, small-caps;
   padding: 0;
   margin: 0;
-  background-color: #cecdc6;
+  background-color: #cecdc0;
 }
 
 /* Global */
@@ -50,7 +50,7 @@ header #title {
 header #title h1 {
   margin: 0;
   padding-top: 15px;
-  font-family: 'open sans', sans-serif;
+  font-family:  'open sans', sans-serif, small-caps;
   font-variant: small-caps;
 }
 
@@ -66,7 +66,7 @@ header a:hover {
   font-size: 21px;
 }
 
-header nav a:active{
+header nav a:active {
   color: #3d3d3d;
 }
 
@@ -78,7 +78,91 @@ header nav a:active{
   text-align: center;
 }
 
-.project-title h3{
+.project-title h3 {
   text-align: center;
   margin-top: 50px;
+}
+
+.container img {
+  border: #707070 5px solid;
+  margin-bottom: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+#social a{
+  margin-bottom: 100px;
+}
+
+/* Centre the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+}
+
+/* Centre the form within the page */
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #97d6eb;
+}
+
+#submit {
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+
+
+
+footer{
+  text-align: center;
+  color: #969696;
+
 }
